@@ -5,5 +5,3 @@ function test(...x) {
   console.log(arguments[0]);
 }
 test(a);
-
-console.log(a.push(1, 2, 3, 4));

@@ -6,4 +6,4 @@ function test(...x) {
 }
 test(a);
 
-console.log(a.push(1, 2, 3, 4));
+a.push()

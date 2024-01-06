@@ -1,9 +1,7 @@
 // 手写new操作
 const a = [1, 2, 3];
 function test(...x) {
-  console.log("x", x);
+  console.log('x')
   console.log(arguments[0]);
 }
 test(a);
-
-console.log(a.push(1, 2, 3, 4));
